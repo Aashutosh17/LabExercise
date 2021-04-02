@@ -1,8 +1,8 @@
 # WAP which accepts marks of four subjects and display total marks,percentage and grade.
 WAP1=int(input("enter the marks of first subject: "))
-WAP2=int(input("enter the value of second sub:",))
-WAP3=int(input("enter the marks of third sub:"))
-WAP4=int(input("enter the marks of four sub:"))
+WAP2=int(input("enter the marks of second subject:"))
+WAP3=int(input("enter the marks of third subject:"))
+WAP4=int(input("enter the marks of fourth subject:"))
 total_marks=(WAP2+WAP4+WAP3+WAP1)
 print(f"the total marks {total_marks}")
 percentage=total_marks/400*100
